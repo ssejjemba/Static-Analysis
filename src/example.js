@@ -1,12 +1,12 @@
-const name = 'Freddy';
-typeof name === 'strng';
+const name = 'Freddy'
+typeof name === 'strng'
 
 if (!'serviceWorker' in navigator) {
-    // you have an old browser :-(
+  // you have an old browser :-(
 }
 
-const greeting = 'hello';
+const greeting = 'hello'
 console
-    .log('${greting} world!')
+  .log('${greting} world!')
 
-    [(1, 2, 3)].forEach((x) => console.log(x));
+  [(1, 2, 3)].forEach((x) => console.log(x))
