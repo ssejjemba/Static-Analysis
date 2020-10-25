@@ -3,9 +3,15 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "scripts": {},
+    "scripts": {
+        "build": "babel src --out-dir dist"
+    },
     "keywords": [],
     "author": "Ssejjemba Daniel",
     "license": "MIT",
-    "devDependencies": {}
+    "devDependencies": {
+        "@babel/cli": "7.12.1",
+        "@babel/core": "7.12.3",
+        "@babel/preset-env": "7.12.1"
+    }
 }
